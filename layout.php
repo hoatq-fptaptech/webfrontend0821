@@ -6,18 +6,7 @@
     <?php include("layout/head.html");?>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="logo">LOGO</div>
-            <ul class="menu">
-                <li><a href="#">Trang chủ</a> </li>
-                <li><a href="demo2.html">Bóng đá</a> </li>
-                <li><a href="#">Tài chính</a> </li>
-                <li><a href="#">Sự kiện</a> </li>
-                <li><a href="#">Covid-19</a> </li>
-            </ul>
-        </div>
-    </header>
+    <?php include("layout/header.html");?>
     <section class="main">
         <div class="container">
             <article class="content">
