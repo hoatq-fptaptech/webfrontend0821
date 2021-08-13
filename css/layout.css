@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    float: left;
+    width: 100%;
+    background-color: aquamarine;
+}
+.main{
+    float: left;
+    width: 100%;
+}
+.footer{
+    float: left;
+    width: 100%;
+    background-color: palegoldenrod;
+}
+.container{
+    float: none;
+    margin: auto;
+    width: 1200px;
+}
+.sidebar{
+    float: left;
+    width: calc(33.33% - 40px);
+    padding: 20px;
+}
+.content{
+    float: left;
+    width: calc(66.67% - 40px);
+    background-color: bisque;
+    padding: 20px;
+}
+/* HET PHAN DINH NGHIA LAYOUT */
+
+.logo{
+    font-size: 30px;
+    float: left;
+}
+.menu{
+    float: right;
+}
+.menu li{
+    float: left;
+    margin-left: 10px;
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 50px;
+}
+.sidebar ul li{
+    list-style: none;
+}

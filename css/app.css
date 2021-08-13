@@ -39,10 +39,72 @@ body{
 }
 .dv1{
     background-color: aquamarine;
+    transition: all 300ms;
+    border-radius: 6px;
 }
 .dv2{
     background-color: palegoldenrod;
+    box-shadow: 0 0 5px red;
 }
 .p1{
     color: orange;
+}
+.dv1:hover{
+    background-color: palegoldenrod;
+    /* transform: translate(10px,15px);*/
+    /*transform: scale(0.5);*/
+    transform: rotate(45deg);
+}
+.light1{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100%;
+    animation: light;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+}
+.light2{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100%;
+    animation: light2;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+}
+.light3{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100%;
+}
+@keyframes light {
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: #15792f;
+        transform: translate(0,50px);
+    }
+}
+@keyframes light2 {
+    0%{
+        background-color: white;
+    }
+    25%{
+        background-color: orange;
+        transform: translate(0,50px);
+    }
+    50%{
+        background-color: orange;
+        transform: translate(0,100px);
+    }
+    75%{
+        background-color: orange;
+        transform: translate(0,50px);
+    }
+    100%{
+        background-color: white;
+    }
 }
